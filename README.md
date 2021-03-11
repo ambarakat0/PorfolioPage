@@ -12,6 +12,11 @@ Service section -- 4) Portfolio section -- 5) Price section -- 6) Review section
 
 ## Instructions
 
--download and unzip the land page from
+(1) -download and unzip the land page from
+https://github.com/ambarakat0/PorfolioPage
 
-- (or) clone it and take your copy by using :
+- click on code button
+- Download zip
+
+(2) -clone it and take your copy by using : git clone
+https://github.com/ambarakat0/PorfolioPage.git
