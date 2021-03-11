@@ -1,0 +1,430 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Landing Page</title>
+
+		<!-- links -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav class="nav">
+				<p class="nav__logo">AMB</p>
+				<ul class="nav__list"></ul>
+				<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<header class="header section" data-nav="Home" id="home">
+				<div class="main">
+					<div class="header__text">
+						<p class="header__text-welcome">Hi, I'm</p>
+						<h1 class="header__text-primary">Ambarakat</h1>
+						<h2 class="header__text-secondary">
+							Professinal Freelancer & Web Developer
+						</h2>
+						<p class="header__text-tertiary">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+							eligendi magnam nisi totam deleniti accusamus delectus ut
+							similique perspiciatis.
+						</p>
+					</div>
+					<button class="header-btn btn">Hire Me</button>
+				</div>
+			</header>
+			<section class="aboutUs section" id="about" data-nav="About">
+				<!-- <div class="aboutUs__img-container">
+					<img src="./imgs/why-lg.jpg" alt="why us" class="aboutUs__img" />
+				</div> -->
+				<div class="aboutUs-main">
+					<h3 class="aboutUs__text-secondary">About us</h3>
+					<h2 class="aboutUs__text-primary">Why You Hire Me!</h2>
+					<p class="aboutUs__text-tertiary">
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut officia
+						est, esse recusandae nam debitis numquam. Excepturi rerum minima qui
+						ipsum ab, nobis deserunt repellendus sit unde? Incidunt, labore
+						voluptatem.
+					</p>
+					<div class="aboutUs__bar-container">
+						<div class="aboutUs__bar">
+							<label for="" class="aboutUs__bar-label">Web Design</label>
+							<progress class="aboutUs__bar-progress" value="80" max="100" />
+						</div>
+						<div class="aboutUs__bar">
+							<label for="" class="aboutUs__bar-label">WordPress</label>
+							<progress class="aboutUs__bar-progress" value="70" max="100" />
+						</div>
+						<div class="aboutUs__bar">
+							<label for="" class="aboutUs__bar-label">Web development</label>
+							<progress class="aboutUs__bar-progress" value="90" max="100" />
+						</div>
+						<div class="aboutUs__bar">
+							<label for="" class="aboutUs__bar-label">HTMl/CSS</label>
+							<progress class="aboutUs__bar-progress" value="95" max="100" />
+						</div>
+						<div class="aboutUs__bar">
+							<label for="" class="aboutUs__bar-label">JavaScript</label>
+							<progress class="aboutUs__bar-progress" value="80" max="100" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="services section" id="services" data-nav="Services">
+				<h3 class="services__text-secondary">Services</h3>
+				<h2 class="services__text-primary">Services Provide</h2>
+				<div class="services__container">
+					<div class="services__item">
+						<svg class="services__icon">
+							<use href="imgs/icons.svg#icon-droplet"></use>
+						</svg>
+						<h4 class="services__title">Graphic Design</h4>
+						<p class="serives__content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+							consectetur provident quos, similique esse rem.
+						</p>
+					</div>
+					<div class="services__item">
+						<svg class="services__icon">
+							<use href="imgs/icons.svg#icon-display"></use>
+						</svg>
+						<h4 class="services__title">Graphic Design</h4>
+						<p class="serives__content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+							consectetur provident quos, similique esse rem.
+						</p>
+					</div>
+					<div class="services__item">
+						<svg class="services__icon">
+							<use href="imgs/icons.svg#icon-stack"></use>
+						</svg>
+						<h4 class="services__title">Graphic Design</h4>
+						<p class="serives__content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+							consectetur provident quos, similique esse rem.
+						</p>
+					</div>
+					<div class="services__item">
+						<svg class="services__icon">
+							<use href="imgs/icons.svg#icon-embed2"></use>
+						</svg>
+						<h4 class="services__title">Graphic Design</h4>
+						<p class="serives__content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+							consectetur provident quos, similique esse rem.
+						</p>
+					</div>
+					<div class="services__item">
+						<svg class="services__icon">
+							<use href="imgs/icons.svg#icon-stats-dots"></use>
+						</svg>
+						<h4 class="services__title">Graphic Design</h4>
+						<p class="serives__content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+							consectetur provident quos, similique esse rem.
+						</p>
+					</div>
+					<div class="services__item">
+						<svg class="services__icon">
+							<use href="imgs/icons.svg#icon-bullhorn"></use>
+						</svg>
+						<h4 class="services__title">Graphic Design</h4>
+						<p class="serives__content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+							consectetur provident quos, similique esse rem.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="section portfolio" data-nav="Portofolio" id="portofolio">
+				<div class="portfolio__text">
+					<h3 class="portfolio__text-secondary">Portfolio</h3>
+					<h2 class="portfolio__text-primary">Latest Projects</h2>
+				</div>
+				<div class="portfolio__projects">
+					<div class="portfolio__project">
+						<img
+							src="./imgs//Project-1.PNG"
+							alt="project 1"
+							class="portfolio__project--img"
+						/>
+						<h3 class="portfolio__project--name">
+							Creative Agency Landing page
+						</h3>
+						<h4 class="portfolio__project--catagory">UI/UX Design</h4>
+					</div>
+					<div class="portfolio__project">
+						<img
+							src="./imgs//Project-2.PNG"
+							alt="project 2"
+							class="portfolio__project--img"
+						/>
+						<h3 class="portfolio__project--name">App Landing page</h3>
+						<h4 class="portfolio__project--catagory">Web Design</h4>
+					</div>
+					<div class="portfolio__project">
+						<img
+							src="./imgs//Project-3.PNG"
+							alt="project 3"
+							class="portfolio__project--img"
+						/>
+						<h3 class="portfolio__project--name">SEO Marketing</h3>
+						<h4 class="portfolio__project--catagory">Marketing</h4>
+					</div>
+				</div>
+				<button class="portfolio__btn btn">All Projects</button>
+			</section>
+			<section class="section price" id="price" data-nav="Price">
+				<div class="price__text">
+					<h3 class="price__text-secondary">Price</h3>
+					<h2 class="price__text-primary">Services Provide</h2>
+				</div>
+				<div class="cards">
+					<div class="card">
+						<h3 class="card__title">Basic</h3>
+						<h4 class="card__price">$75</h4>
+						<p class="card__descipt">Only PSD Service</p>
+						<div class="card__details">
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Graphic Design</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Web Design</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">UI/UX</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">HTML/CSS</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">SEO Marketing</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Business Improve</p>
+							</div>
+							<button class="btn-outline">Choose Plan</button>
+						</div>
+					</div>
+					<div class="card">
+						<h3 class="card__title">Standard</h3>
+						<h4 class="card__price">$250</h4>
+						<p class="card__descipt">Compleate Service</p>
+						<div class="card__details">
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Graphic Design</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Web Design</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">UI/UX</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">HTML/CSS</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">SEO Marketing</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Business Improve</p>
+							</div>
+							<button class="btn-outline">Choose Plan</button>
+						</div>
+					</div>
+					<div class="card">
+						<h3 class="card__title">Premium</h3>
+						<h4 class="card__price">$350</h4>
+						<p class="card__descipt">Compleate Service</p>
+						<div class="card__details">
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Graphic Design</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Web Design</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">UI/UX</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">HTML/CSS</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">SEO Marketing</p>
+							</div>
+							<div class="card__item">
+								<svg class="card__item--icon">
+									<use href="imgs/icons.svg#icon-checkmark" />
+								</svg>
+								<p class="card__item--text">Business Improve</p>
+							</div>
+						</div>
+						<button class="btn-outline">Choose Plan</button>
+					</div>
+				</div>
+			</section>
+			<section class="section testimonials" id="testimonials" data-nav="Review">
+				<div class="section__title section__title--testimonials">
+					<h2 class="section__description">Not sure yet?</h2>
+					<h3 class="section__header">Client Say Something!</h3>
+				</div>
+
+				<div class="slider">
+					<div class="slide">
+						<div class="testimonial">
+							<h5 class="testimonial__header">Best decision ever!</h5>
+							<blockquote class="testimonial__text">
+								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+								Accusantium quas quisquam non? Quas voluptate nulla minima
+								deleniti optio ullam nesciunt, numquam corporis et asperiores
+								laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+								id alias reiciendis, perferendis facere pariatur dolore veniam
+								autem esse non voluptatem saepe provident nihil molestiae.
+							</blockquote>
+							<address class="testimonial__author">
+								<img src="./imgs/p1.jpg" alt="" class="testimonial__photo" />
+								<h6 class="testimonial__name">Aarav Lynn</h6>
+								<p class="testimonial__location">San Francisco, USA</p>
+							</address>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="testimonial">
+							<h5 class="testimonial__header">
+								The last step to becoming a complete successful
+							</h5>
+							<blockquote class="testimonial__text">
+								Quisquam itaque deserunt ullam, quia ea repellendus provident,
+								ducimus neque ipsam modi voluptatibus doloremque, corrupti
+								laborum. Incidunt numquam perferendis veritatis neque
+								repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing
+								elit. Illo deserunt exercitationem deleniti.
+							</blockquote>
+							<address class="testimonial__author">
+								<img src="./imgs/p2.jpg" alt="" class="testimonial__photo" />
+								<h6 class="testimonial__name">Miyah Miles</h6>
+								<p class="testimonial__location">London, UK</p>
+							</address>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="testimonial">
+							<h5 class="testimonial__header">
+								Finally free from old-school designers
+							</h5>
+							<blockquote class="testimonial__text">
+								Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+								incidunt commodi architecto numquam omnis nulla autem,
+								necessitatibus blanditiis modi similique quidem. Odio aliquam
+								culpa dicta beatae quod maiores ipsa minus consequatur error
+								sunt, deleniti saepe aliquid quos inventore sequi.
+								Necessitatibus id alias reiciendis, perferendis facere.
+							</blockquote>
+							<address class="testimonial__author">
+								<img src="./imgs/p3.jpg" alt="" class="testimonial__photo" />
+								<h6 class="testimonial__name">Francisco Gomes</h6>
+								<p class="testimonial__location">Lisbon, Portugal</p>
+							</address>
+						</div>
+					</div>
+					<div class="dots"></div>
+				</div>
+			</section>
+			<footer class="footer section" id="footer" data-nav="Contact">
+				<h3 class="footer__logo">AMB</h3>
+				<div class="footer__socials">
+					<svg class="footer__icon">
+						<use href="imgs/icons.svg#icon-whatsapp" />
+					</svg>
+					<svg class="footer__icon">
+						<use href="imgs/icons.svg#icon-twitter" />
+					</svg>
+					<svg class="footer__icon">
+						<use href="imgs/icons.svg#icon-google-plus" />
+					</svg>
+					<svg class="footer__icon">
+						<use href="imgs/icons.svg#icon-github" />
+					</svg>
+					<svg class="footer__icon">
+						<use href="imgs/icons.svg#icon-facebook" />
+					</svg>
+				</div>
+				<div class="footer__copyright">
+					<p>&copy;Copyright by ambarakat</p>
+				</div>
+				<svg class="footer__arrowUp">
+					<use href="imgs/icons.svg#icon-arrow-up2" />
+				</svg>
+			</footer>
+		</main>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>
